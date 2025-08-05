@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# dotenv environment variable file
+.env
+
+# production build
+/build
+
+# system files
+.DS_Store
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# coverage reports
+coverage
+
+# local IDE settings
+.vscode
+.idea
