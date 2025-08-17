@@ -22,6 +22,9 @@ app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
 
+const flightRoutes = require('./routes/flights.js')
+app.use('/flights', flightRoutes);
+
 // const supabase = require('./utils/supabaseClient.js')
 
 // async function testSupabase() {
